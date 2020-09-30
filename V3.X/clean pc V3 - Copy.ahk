@@ -263,6 +263,7 @@ Return
 Return
 
 ; Teams Cache
+; yes this part can be done more efficiently i dont feel like figuring out how to and idc, it works so i am content
 ^h::
 {
 	DirToKill = C:\Users\%A_Username%\AppData\Roaming\Microsoft\Teams\application cache\cache

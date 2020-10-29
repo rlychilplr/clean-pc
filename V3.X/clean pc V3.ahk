@@ -2,8 +2,9 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+; ^that is standard there for ahk files
 
-
+; gui
 {
 	Gui, Show, w455 h870, clean pc
 	Gui, Color, 0F0F10

@@ -446,6 +446,20 @@ Return
 
 Return
 
+; 
+; ^c::
+{
+	DirToKill = 
+	DepthToKill = 10
+
+	FileDelete, %DirToKill%\*.*
+	Loop, %DepthToKill%
+		Loop,%DirToKill%\*,2,1
+			FileRemoveDir, %A_LoopFileFullPath%
+}
+
+Return
+
 ; Offline Web Pages
 ^v::
 {

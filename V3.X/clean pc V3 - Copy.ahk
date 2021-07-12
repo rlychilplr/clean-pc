@@ -35,11 +35,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 	Gui, Add, Text, cd7e8c10, ctrl+l to delete GOG (Good Old Games) Cache
 	Gui, Add, Text, cd7e8c10, ctrl+z to delete Opera GX Cache
 	Gui, Add, Text, cd7e8c10, ctrl+x to delete Firefox Cache
-	Gui, Add, Text, cd7e8c10, ctrl+c to delete Dolphin Emulator (doesnt work bc dolphin doesnt have a default location)
+;	Gui, Add, Text, cd7e8c10, ctrl+c to delete 
 	Gui, Add, Text, cd7e8c10, ctrl+v to delete Offline Web Pages
 	Gui, Add, Text, cd7e8c10, ctrl+b to delete Brave Cache
 	Gui, Add, Text, cd7e8c10, ctrl+n to delete Package Cache
-	Gui, Add, Text, cd7e8c10, ctrl+m to delete 
+;	Gui, Add, Text, cd7e8c10, ctrl+m to delete 
 }
 return
 
@@ -446,10 +446,10 @@ Return
 
 Return
 
-; Dolphin Emulator Cache
-^c::
+; 
+; ^c::
 {
-	DirToKill = D:\Shortcut stuff\Emulators\Dolphin-x64\TempUpdate
+	DirToKill = 
 	DepthToKill = 10
 
 	FileDelete, %DirToKill%\*.*

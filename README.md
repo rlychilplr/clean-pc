@@ -6,3 +6,5 @@ dont mind the "clean pc v3 - copy" in the V3.X folder, i just use that so i have
 
 an annoying thing in the V2.X is the message boxes, it creates a message box every time it deletes files in a directory so yea uhm... please use the v3 its overall just better
 (the message boxes sounded like a good idea but they really arent)
+
+i am NOT to be held responsable for any valuble files that are lost
